@@ -1,5 +1,5 @@
 context:
-  version: "0.1.0"
+  version: "0.2.0"
   # Pinned by Dictation.xcodeproj (exactVersion) and Package.resolved.
   keyboardshortcuts_version: "3.0.1"
 
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://github.com/dick-kinekt/hot-mic/releases/download/v${{ version }}/hot-mic-${{ version }}.tar.gz
-    sha256: 29fc993fa41b1f82ecd8949f1cf67b8a944b09525ec78eebc3473987d6dde300
+    sha256: a1fbdc73452ad335ef6a0d948c7a75c053e0495f5e50689bcc3a223ef1e35690
     patches:
       # Point the Xcode project at the vendored KeyboardShortcuts checkout
       # below instead of resolving it from GitHub during the build.
